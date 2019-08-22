@@ -1,0 +1,19 @@
+<div class="dashboard-page sb-l-o sb-r-c">
+    <!-- For Demo Purposes - Theme Settings Pane -->
+    <div id="skin-toolbox">
+        <app-skin-toolbox></app-skin-toolbox>
+    </div>
+    <!-- End: Theme Settings Pane -->
+    <!-- Start: Main -->
+    <div id="main">
+        <app-header></app-header>
+        <app-left-sidebar [menues]="menues"></app-left-sidebar>
+        <!-- Start: Content-Wrapper -->
+        <section id="content_wrapper">
+            <app-topbar-dropmenu></app-topbar-dropmenu>
+            <router-outlet></router-outlet>
+        </section>
+    </div>
+    <!-- End: Main -->
+</div>
+<!-- <app-footer></app-footer> -->

@@ -1,0 +1,31 @@
+<header id="topbar">
+  <div class="topbar-left">
+    <ol class="breadcrumb">
+      <li class="crumb-active">
+        <a href="javascript:void(0)">Masters</a>
+      </li>
+      <li class="crumb-icon">
+        <a routerLink="layout/dashboard">
+          <span class="glyphicon glyphicon-home"></span>
+        </a>
+      </li>
+      <li class="crumb-link">
+        <a routerLink="">Home</a>
+      </li>
+      <li class="crumb-link">
+        <a routerLink="../list">Contract List</a>
+      </li>
+      <li class="crumb-trail">Contract Add</li>
+    </ol>
+  </div>
+  <div class="topbar-right">
+    <button class="btn" [ngClass]="isFavourite ? 'btn-primary' : 'btn-danger'" (click)="addToFavourite()"> Favourite
+    </button>
+  </div>
+</header>
+<!-- Begin: Content -->
+<section id="content" class="animated fadeIn">
+  <p>
+    contract-add works!
+  </p>
+</section>

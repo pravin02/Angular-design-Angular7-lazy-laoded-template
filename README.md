@@ -1,2 +1,3 @@
-# Angular-design-Angular7-lazy-laoded-template
-This is an Angular design template with angular7 and lazy loading routing
+# ADAngular
+
+This is an Admin design template with angular7 lazy loaded modules

@@ -1,0 +1,10 @@
+<div id="topbar-dropmenu" class="" style="display: none;">
+    <div class="topbar-menu row">
+        <div class="col-xs-4 col-sm-2" *ngFor="let menu of favouriteMenus;">
+            <a [routerLink]="menu.link" class="metro-tile animated animated-short fadeInDown" style="opacity: 1;">
+                <span [class]="menu.icon"></span>
+                <span class="metro-title">{{menu.label}}</span>
+            </a>
+        </div>
+    </div>
+</div>
